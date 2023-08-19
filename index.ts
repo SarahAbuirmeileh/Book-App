@@ -1,8 +1,8 @@
 import express from "express"
 import bookRouter from "./routers/book.js"
 
-const app = express()
-app.listen(3000,()=>{
+const app = express() 
+app.listen(3000,()=>{   // typical setup for starting the Express server 
     console.log("The app is listening")
 })
 

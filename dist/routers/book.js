@@ -62,7 +62,6 @@ router.post("/", (req, res) => {
         "publicationYear": req.body.publicationYear
     };
     data.push(newBook);
-    console.log(data);
     res.status(200).send("Book is added :)");
 });
 router.put("/:id", (req, res) => {

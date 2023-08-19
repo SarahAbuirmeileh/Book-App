@@ -67,7 +67,6 @@ router.post("/", (req: Book.IRequast, res) => {
         "publicationYear": req.body.publicationYear
     }
     data.push(newBook)
-    console.log(data)
     res.status(200).send("Book is added :)")
 })
 
